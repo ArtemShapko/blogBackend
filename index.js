@@ -13,7 +13,7 @@ import {
 } from './controllers/postControllers.js';
 
 const db =
-  'mongodb+srv://ArtemShapko:pass321@cluster0.azasdon.mongodb.net/blog?retryWrites=true&w=majority';
+  '';
 mongoose
   .connect(db, { useNewUrlParser: true, useUnifiedTopology: true })
   .then((res) => {
